@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: "Micro 5", sans-serif;
+    font-size: large;
+    font-weight: 400;
+
+    background-image: url("../imagens/barv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+
+    transition: all 1s linear;
+    overflow: hidden;
+}
+
+.wrap-42
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    height: 100%;
+    width: 100%;
+}
