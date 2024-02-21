@@ -24,6 +24,7 @@ h1{
     gap: 10px;
     margin-bottom: 6vh;
     margin-top: 6vh;
+
 }
 
 @media (width >= 800px)
@@ -34,4 +35,8 @@ h1{
         flex-direction: row;
         gap: 10px;
     }
+}
+
+.card-img-top{
+   
 }
