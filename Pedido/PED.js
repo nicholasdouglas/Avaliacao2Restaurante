@@ -12,7 +12,7 @@ function show(nome)
 
     if(nome && nome.trim() !== "")
     {
-        div.style.display = "block";
+        div.style.display = "flex";
         document.getElementById("exampleFormControlInput1").style.background = "none";
     }
 

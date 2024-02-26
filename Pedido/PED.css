@@ -57,3 +57,8 @@ body
     opacity: 1;
     cursor: pointer;
 }
+
+.badge
+{
+    font-size: 1.4rem !important;
+}
