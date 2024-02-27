@@ -30,9 +30,9 @@ function fechar()
  
 function receberVal()
 {
-    var pratoEsc = document.getElementById("pratoSel").value;
-    var bebidaEsc = document.getElementById("bebidaSel").value;
-    var sobremesaEsc = document.getElementById("sobremesaSel").value;
+    var pratoEsc = document.getElementById("selectPrato").value;
+    var bebidaEsc = document.getElementById("selectBebida").value;
+    var sobremesaEsc = document.getElementById("selectSobremesa").value;
 
     var valTotal = 0;
 
@@ -78,5 +78,6 @@ function receberVal()
             break;
     }
 
+    document.getElementById("resultado").innerHTML = valTotal + " reais";
     console.log(valTotal);
 }
