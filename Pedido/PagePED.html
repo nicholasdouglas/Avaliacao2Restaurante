@@ -26,36 +26,36 @@
     </div>
     <h1>Pedido</h1>
     
-    <button type="button" class="btn btn-outline-dark" onclick="comecar()">Começar!</button>
+    <button type="button" class="btn btn-outline-dark" onclick="comecar()" id="btnCom">Começar!</button>
 
     <div id="select-div">
         <h2>Olá <span id="nomePrint"></span>, vamos começar a escolha de refeição</h2>
         <h1>Pratos</h1>
         <select class="form-select" aria-label="Default select example" id="selectPrato">
-            <option selected>Selecione um prato</option>
-            <option value="Tatar de carne">Tatar de carne</option>
+            <option selected id="pratoSel">Selecione um prato</option>
+            <option value="Tartar de carne">Tartar de carne</option>
             <option value="Pizza portuguesa">Pizza portuguesa</option>
             <option value="Strogonoff de carne">Strogonoff de carne</option>
           </select>
         
         <h1>Bebidas</h1>
         <select class="form-select" aria-label="Default select example" id="selectBebida">
-            <option selected>Selecione uma bebida</option>
+            <option selected id="bebidaSel">Selecione uma bebida</option>
             <option value="Monster Pink">Monster Pink</option>
-            <option value="Pizza portuguesa">Pizza portuguesa</option>
-            <option value="Strogonoff de carne">Strogonoff de carne</option>
+            <option value="Pepsi">Pepsi</option>
+            <option value="Martini azul">Martini azul</option>
           </select>
         
-          <h1>Pratos</h1>
+          <h1>Sobremesas</h1>
         <select class="form-select" aria-label="Default select example" id="selectPrato">
-            <option selected>Selecione um prato</option>
-            <option value="Tatar de carne">Tatar de carne</option>
-            <option value="Pizza portuguesa">Pizza portuguesa</option>
-            <option value="Strogonoff de carne">Strogonoff de carne</option>
+            <option selected id="sobremesaSel">Selecione uma sobremesa</option>
+            <option value="Banoffe">Banoffe</option>
+            <option value="Torta holandesa">Torta holandesa</option>
+            <option value="Tortolini">Tortolini</option>
           </select>
-          <div>
-            <button class="btn btn-success" type="button" onclick="calcTotal()"></button>
-            <button class="btn btn-secondary" type="button" onclick="limpar()"></button>
+          <div class="btn-final">
+            <button class="btn btn-success" type="button" onclick="receberVal()">Finalizar pedido</button>
+            <button class="btn btn-secondary" type="button" onclick="limpar()">Limpar pedido</button>
           </div>
           <div>
             <span class="badge bg-primary">Total: </span>

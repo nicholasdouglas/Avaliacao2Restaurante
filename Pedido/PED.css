@@ -9,7 +9,7 @@ body
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     gap: 2vh;
     text-align: center;
@@ -18,6 +18,7 @@ body
 #select-div
 {
     display: none;
+    flex-direction: column;
 }
 
 .error-modal
@@ -61,4 +62,51 @@ body
 .badge
 {
     font-size: 1.4rem !important;
+}
+
+h1
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#selectPrato
+{
+    padding-bottom: 10px;
+}
+
+.btn-final
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+@media (width >= 800px)
+{
+    .mb-3
+    {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-control
+    {
+        width: 50vh;
+        text-align: center;
+    }
+
+    button
+    {
+        width: 50%;
+    }
+
+    body
+    {
+        background-image: none;
+    }
 }
